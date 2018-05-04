@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WeedleLib</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="msg_generic_error">Sorry, an error has occurred, please try again</string>
+</resources>
