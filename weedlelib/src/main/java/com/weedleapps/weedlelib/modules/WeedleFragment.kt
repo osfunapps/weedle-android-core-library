@@ -90,10 +90,6 @@ abstract class WeedleFragment: Fragment(), CrashReporter, MessageView {
     }
 
 
-    override fun reportCrashlyticsEvent(event: String) {
-        CrashReporterImpl.reportCrashlytics(event)
-    }
-
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         reportCrashlyticsEvent(ON_ACTIVITY_RESULT + currClass)
         super.onActivityResult(requestCode, resultCode, data)

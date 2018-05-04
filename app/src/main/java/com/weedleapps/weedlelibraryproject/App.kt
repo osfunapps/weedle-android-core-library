@@ -1,6 +1,7 @@
 package com.weedleapps.weedlelibraryproject
 
 import com.crashlytics.android.Crashlytics
+import com.weedleapps.weedlelib.LibInitializer
 import com.weedleapps.weedlelibraryproject.dagger.DaggerAppComponent
 import dagger.android.AndroidInjector
 import dagger.android.DaggerApplication
@@ -27,7 +28,8 @@ class App : DaggerApplication() {
     }
 
     override fun onCreate() {
+        Fabric.with(this, Crashlytics())
+        LibInitializer.withFabric = true
         super.onCreate()
-        //Fabric.with(this, Crashlytics())
     }
 }
