@@ -22,27 +22,27 @@ Designed in DI style with dagger 2.1.
 
 2) add the library module **WeedleLibraryBuilder::class** to your app component.
 
-Example:
-```
-@Singleton
-@Component(modules = [
-    AndroidSupportInjectionModule::class,
-    AppModule::class,
-    ActivityBuilder::class,
-    WeedleLibraryBuilder::class])
-```
+    Example:
+    ```
+    @Singleton
+    @Component(modules = [
+        AndroidSupportInjectionModule::class,
+       AppModule::class,
+      ActivityBuilder::class,
+      WeedleLibraryBuilder::class])
+    ```
 
 
 
 3) in your Application file specify which elements you desire to use in the library.
 
-Example:
-```
- class App : DaggerApplication() {
-  override fun onCreate() {
-        WeedleLibInitializer.withFabric = false
-        WeedleLibInitializer.sharedPrefsName = "itzik"   
-        super.onCreate()     
-    }
-```
+    Example:
+    ```
+    class App : DaggerApplication() {
+    override fun onCreate() {
+         WeedleLibInitializer.withFabric = false
+         WeedleLibInitializer.sharedPrefsName = "itzik"   
+         super.onCreate()     
+      }
+    ```
 
