@@ -1,13 +1,13 @@
-package com.weedleapps.weedlelib.modules
+package com.weedleapps.weedlelib.modules.views
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.annotation.CallSuper
 import com.weedleapps.weedlelib.R
 import com.weedleapps.weedlelib.banks.*
-import com.weedleapps.weedlelib.extensions.showToast
-import com.weedleapps.weedlelib.modules.banks.*
+import com.weedleapps.weedlelib.extensions.ui.showToast
 import com.weedleapps.weedlelib.behaviours.MessageView
+import com.weedleapps.weedlelib.behaviours.USER_MESSAGE
 import com.weedleapps.weedlelib.parameters.reportCrashlytics
 import dagger.android.support.DaggerAppCompatActivity
 

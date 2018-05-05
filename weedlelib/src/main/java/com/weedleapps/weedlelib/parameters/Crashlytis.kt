@@ -1,6 +1,6 @@
 package com.weedleapps.weedlelib.parameters
 
-import com.weedleapps.weedlelib.LibInitializer
+import com.weedleapps.weedlelib.WeedleLibInitializer
 import com.weedleapps.weedlelib.utils.crashreporter.CrashReporterImpl
 
 /**
@@ -13,8 +13,8 @@ import com.weedleapps.weedlelib.utils.crashreporter.CrashReporterImpl
 //report crashlytics command
 val reportCrashlytics: (log: String) -> Unit =
         when {
-            LibInitializer.withFabric == null -> throw RuntimeException("set LibInitializer.withFabric = to true or false")
-            LibInitializer.withFabric!! -> CrashReporterImpl::reportCrashlytics
+            WeedleLibInitializer.withFabric == null -> throw RuntimeException("set WeedleLibInitializer.withFabric = to true or false")
+            WeedleLibInitializer.withFabric!! -> CrashReporterImpl::reportCrashlytics
             else -> ::emptyFunc
         }
 

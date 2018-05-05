@@ -1,12 +1,7 @@
-package com.weedleapps.weedlelib.extensions
+package com.weedleapps.weedlelib.extensions.ui
 
-import android.app.Activity
-import android.content.Context
 import android.support.annotation.StringRes
 import android.support.v4.app.Fragment
-import android.support.v4.app.FragmentManager
-import android.support.v7.app.AppCompatActivity
-import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 
 /**

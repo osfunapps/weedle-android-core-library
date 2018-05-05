@@ -1,4 +1,4 @@
-package com.weedleapps.weedlelib.extensions
+package com.weedleapps.weedlelib.extensions.ui
 
 import android.app.Activity
 import android.content.Context
