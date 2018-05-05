@@ -1,4 +1,4 @@
-package com.weedleapps.weedlelib.modules.behaviours
+package com.weedleapps.weedlelib.behaviours
 
 import android.support.annotation.StringRes
 
@@ -15,3 +15,5 @@ interface MessageView {
 
     fun showGenericErrorMessage()
 }
+
+const val USER_MESSAGE = "user got message: "

@@ -1,4 +1,4 @@
-package com.weedleapps.weedlelib.modules.behaviours
+package com.weedleapps.weedlelib.behaviours
 
 interface LoadingView {
 

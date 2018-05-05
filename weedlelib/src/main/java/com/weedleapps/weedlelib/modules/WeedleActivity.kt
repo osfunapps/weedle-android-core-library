@@ -4,9 +4,10 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.annotation.CallSuper
 import com.weedleapps.weedlelib.R
+import com.weedleapps.weedlelib.banks.*
 import com.weedleapps.weedlelib.extensions.showToast
 import com.weedleapps.weedlelib.modules.banks.*
-import com.weedleapps.weedlelib.modules.behaviours.MessageView
+import com.weedleapps.weedlelib.behaviours.MessageView
 import com.weedleapps.weedlelib.parameters.reportCrashlytics
 import dagger.android.support.DaggerAppCompatActivity
 
@@ -15,7 +16,13 @@ import dagger.android.support.DaggerAppCompatActivity
  * Created by osapps on 04/05/2018.
  */
 
+ /**
+ * this class represents a weedle activity.
+ * it implements the crashlytics and a minor ui messaging system (using toast)
+ **/
+
 abstract class WeedleActivity: DaggerAppCompatActivity(), MessageView {
+
 
     private val currClass = javaClass.simpleName.toString()
 
