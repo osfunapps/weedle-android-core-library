@@ -34,7 +34,7 @@ Example:
 
 
 
-3) in your Application file select specify which elements you desire to use in the library.
+3) in your Application file specify which elements you desire to use in the library.
 
 Example:
 ```
