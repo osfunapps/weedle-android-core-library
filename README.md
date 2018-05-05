@@ -1,6 +1,6 @@
 # Description
 
-This library meant to pack the core essentiatls resources for building a modern android app. 
+Designed by [WeedleApps](https://weedleapps.co.il/en/), this library meant to pack the core essentiatls resources for building a modern android app. 
 
 Designed in DI style with dagger 2.1.
 
