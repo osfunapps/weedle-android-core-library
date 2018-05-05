@@ -14,13 +14,13 @@ Designed in DI style with dagger 2.1.
 
 # Install
 
-1) add the gradle dependency:
+add the gradle dependency:
 
 ```compile 'com.github.osfunapps:weedle-android-core-library:v1.0.2' ```
 
+# Usage
 
-
-2) add the library module **WeedleLibraryBuilder::class** to your app component.
+1) add the library module **WeedleLibraryBuilder::class** to your app component.
 
     Example:
     ```
@@ -34,7 +34,7 @@ Designed in DI style with dagger 2.1.
 
 
 
-3) in your Application file specify which elements you desire to use in the library.
+2) in your Application file specify which elements you desire to use in the library.
 
     Example:
     ```
