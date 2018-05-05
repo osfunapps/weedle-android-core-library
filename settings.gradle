@@ -1,1 +1,1 @@
-include ':app', ':weedlelib'
+include ':app', ':weedlecorelib'

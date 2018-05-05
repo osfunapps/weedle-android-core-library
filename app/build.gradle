@@ -46,5 +46,5 @@ dependencies {
     kapt "com.google.dagger:dagger-compiler:2.14.1"
     kapt "com.google.dagger:dagger-android-processor:2.14.1"
 
-    compile project(path: ':weedlelib')
+    compile project(path: ':weedlecorelib')
 }
